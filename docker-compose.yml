@@ -1,0 +1,18 @@
+version: "3.3"
+services:
+  app:
+    build: .
+    ports:
+      - "7861:8000"
+    volumes:
+      - app-log:/tmp
+      - /chatglm-6b:/data/models/llm/chatglm-6b
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+volumes:
+  app-log: { }
