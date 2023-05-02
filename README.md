@@ -3,6 +3,7 @@
 
 
 # Simplified llm API
+本项目由简单的fastapi + 直接的huggingface 组装而成的最小模型独立api。   
 非常，异常简单的llm 类语言模型api接口，提供了三个简单的接口
 ## 核心主要的模型api化的接口
 ```shell

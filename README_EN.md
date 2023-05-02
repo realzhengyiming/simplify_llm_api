@@ -6,7 +6,7 @@ README if you need.
 If you find this simple project helpful, please give it a star!🤗
 
 ## Introduction
-
+This project is a minimal model independent API assembled from simple fastapi and direct huggingface.  
 This is an extremely simple API interface for llm-like language models, providing three simple interfaces.
 
 ### Core model API interface
