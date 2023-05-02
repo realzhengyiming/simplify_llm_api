@@ -1,5 +1,8 @@
 FROM pytorch/pytorch:2.0.0-cuda11.7-cudnn8-devel
 
+# 把你的环境变量通过ENV增加到此处
+# ENV USE_LLM_MODEL=True
+# ENV MODEL_PATH=你从huggingface中下载下来的语言模型文件夹路径
 
 RUN conda config --remove channels defaults \
   && conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main \
