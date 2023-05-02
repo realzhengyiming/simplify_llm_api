@@ -4,7 +4,7 @@
 
 # Simplified llm API
 本项目由简单的fastapi + 直接的huggingface 组装而成的最小模型独立api。   
-非常，异常简单的llm 类语言模型api接口，提供了三个简单的接口
+非常，异常简单的llm 类语言模型chatbot api接口，提供了三个简单的接口,用于快速测试llm模型的对话api
 ## 核心主要的模型api化的接口
 ```shell
 /ask  
@@ -51,3 +51,11 @@ export EMBEDDING_PATH=你从huggingface中下载下来的embedding模型文件�
 `docker build -t sample_llm_api:v1 -f Dockerfile .`  
 启动镜像为容器服务  
 `docker run -p 7866:7866 sample_llm_api:v1`
+
+
+# huggingface模型下载地址(例子)
+中文：  
+<a href="https://huggingface.co/THUDM/chatglm-6b" target="_blank">THUDM/chatglm-6b</a>
+
+英文:
+llm系

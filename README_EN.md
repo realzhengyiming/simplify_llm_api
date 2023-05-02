@@ -7,7 +7,8 @@ If you find this simple project helpful, please give it a star!🤗
 
 ## Introduction
 This project is a minimal model independent API assembled from simple fastapi and direct huggingface.  
-This is an extremely simple API interface for llm-like language models, providing three simple interfaces.
+An extremely simple LLM language model chatbot API interface, which provides three simple interfaces for quickly testing the dialogue API of an LLM model.
+
 
 ### Core model API interface
 
