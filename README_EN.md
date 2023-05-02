@@ -1,6 +1,6 @@
 # Simplified llm API
 
-This document is the English version of the README. Please visit [用中文看](README_EN.md) for the Chinese version of the
+This document is the English version of the README. Please visit [用中文看](README.md) for the Chinese version of the
 README if you need.
 
 If you find this simple project helpful, please give it a star!🤗
